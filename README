@@ -11,7 +11,7 @@ Het starten van robotworld is een klein beetje veranderd. De command om het prog
    "./src/robotworld -lidar=1234 -compas=1234 -odom=1234 -actuator=1234
 
 ## Gebruik
-Het programma heeft 4 mogelijkheaden om de robot te besturen.
+Het programma heeft 4 mogelijkheden om de robot te besturen.
  - 1.  Kalman -> De robot maakt gebruik van kalman.
    2.  Particle -> De robot maakt gebruik van Particle.
    3.  Both Kalman -> De robot maakt gebruik van Kalman om de actie te bepalen, maar beide filters bepalen ieder een eigen believe
