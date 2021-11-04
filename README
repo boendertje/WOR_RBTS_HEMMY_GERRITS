@@ -1,7 +1,8 @@
 # ROBOTWORLD-WOR
 
 ## Installatie
-De installatie van robotworld is niet veranderd. Je kan dus gewoon de huidige installatie gebruiken op de base_version. Als je de nieuwe versie wilt gebruiken, sleep dan de src-map van newRobotWorld in base_version.
+De installatie van robotworld is niet veranderd. Je kan dus gewoon de huidige installatie gebruiken op de base_version.
+ Als je de nieuwe versie wilt gebruiken, sleep dan de src-map van "new version" in base_version en compileer opnieuw.
 
 ## Starten
 Het starten van robotworld is een klein beetje veranderd. De command om het programma te starten in de build map is zoals gebruikelijk
