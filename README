@@ -1,6 +1,6 @@
 # ROBOTWORLD-WOR
 
-## Installatie
+## Installatie/Compileren
 De installatie van robotworld is niet veranderd. Je kan dus gewoon de huidige installatie gebruiken op de base_version.
  Als je de nieuwe versie wilt gebruiken, sleep dan de src-map van "new version" in base_version en compileer opnieuw.
 
