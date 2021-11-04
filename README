@@ -1,7 +1,7 @@
 # ROBOTWORLD-WOR
 
 ## Installatie
-De installatie van robotworld is niet veranderd. Je kan dus gewoon de huidige installatie gebruiken.
+De installatie van robotworld is niet veranderd. Je kan dus gewoon de huidige installatie gebruiken op de base_version. Als je de nieuwe versie wilt gebruiken, sleep dan de src-map van newRobotWorld in base_version.
 
 ## Starten
 Het starten van robotworld is een klein beetje veranderd. De command om het programma te starten in de build map is zoals gebruikelijk
@@ -55,10 +55,10 @@ described in the installation manual, the following commands can be used
 to configure and build RobotWorld.
 
 Navigate to the root folder of RobotWorld (for example
-"`~/sources/robotworld/`", where "`~`" stands for the home folder of the
+"`~/base_version/`", where "`~`" stands for the home folder of the
 user.
 
-    cd ~/sources/robotworld/
+    cd ~/base_version/
 
     mkdir linux-build
 
@@ -97,7 +97,7 @@ to configure and build RobotWorld.
 Open the MinGW MSys2 terminal (*not* the Windows command line). Navigate
 to the root folder of RobotWorld (for example "`/c/robotworld/`")
 
-    cd /c/robotworld/
+    cd /c/base_version/
 
     mkdir mingw-build 
 
@@ -148,8 +148,8 @@ a project in Eclipse.
 
     a.  Give the project a name
     b.  Deselect "`Use default location`" and set the location to the
-        root of RobotWorld (Linux: "`~/sources/robotworld/`", Windows:
-        "`c:\robotworld\`")
+        root of RobotWorld (Linux: "`~/sources/base_version/`", Windows:
+        "`c:\base_version\`")
     c.  Set project type (left below) to "`Makefile project -> empty`"
     d.  click "`Finish`"
 
@@ -157,8 +157,8 @@ a project in Eclipse.
     folder used earlier building RobotWorld. Select "`Properties`" of
     the project, go to "`C/C++ Build`" and change the
     "`Build directory`" (use the button "`Workspace`" ) to the
-    compilation folder (Linux: "`~/sources/robotworld/linux-build/`",
-    Windows: "`c:\robotworld\mingw-build\`"). Click on
+    compilation folder (Linux: "`~/base_version/linux-build/`",
+    Windows: "`c:\base_version\mingw-build\`"). Click on
     "`Apply and Close`".
 
 To test if the Eclipse project is configured correctly, click
