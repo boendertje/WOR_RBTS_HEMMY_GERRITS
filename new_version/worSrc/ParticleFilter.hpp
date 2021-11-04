@@ -22,7 +22,7 @@ namespace Model{
       * @param Particle : particle represents a point in the world with a weight
       * @param command : MoveCommandPointer, command that has direction and speed 
       **/
-       Point actionToParticle(Particle& particle,const std::shared_ptr<MoveActuatorCommand>& command); 
+       void actionToParticle(Particle& particle,const std::shared_ptr<MoveActuatorCommand>& command); 
         /**
          * @brief find the Particle with the total value of the weight (sum of all the previous weights) 
          *  @param number : number, the totalWeight number that needs to be find
@@ -33,7 +33,7 @@ namespace Model{
         * @brief  update believe by algorithm
         **/
       
-       void filter(std::vector<Particle>& particles_believe_1,const std::shared_ptr<MoveActuatorCommand> command
+       void filter(std::vector<Particle>& particles_believe_1,const std::shared_ptr<MoveActuatorCommand>& command
             ,const  std::vector<std::shared_ptr<AbstractPercept>>& measurements);
     };
 }

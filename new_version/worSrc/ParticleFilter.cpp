@@ -11,7 +11,7 @@ namespace Model
     {
 
     }
-    Point ParticleFilter::actionToParticle(Particle& particle,const std::shared_ptr<MoveActuatorCommand>& command)
+    void ParticleFilter::actionToParticle(Particle& particle,const std::shared_ptr<MoveActuatorCommand>& command)
     {
 
             static Actuator actuator(nullptr,agent->getActuator(0)->getStdDev());
@@ -37,7 +37,7 @@ namespace Model
 
     }
   
-    void ParticleFilter::filter(std::vector<Particle>& particles_believe_1,const std::shared_ptr<MoveActuatorCommand> command,const std::vector<std::shared_ptr<AbstractPercept>>& measurements)
+    void ParticleFilter::filter(std::vector<Particle>& particles_believe_1,const std::shared_ptr<MoveActuatorCommand>& command,const std::vector<std::shared_ptr<AbstractPercept>>& measurements)
     {
         std::vector<Particle> particles_believe = particles_believe_1;
         static Lidar lidar(nullptr,agent->getSensor(SENSORINDEX::LIDAR)->getStdDev());

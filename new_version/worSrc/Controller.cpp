@@ -57,9 +57,9 @@ namespace Model
     {
     }
     
-    void Controller::setFilter(FILTERS filter)
+    void Controller::setFilter(FILTERS aFilter)
     {
-        filter = filter;
+        filter = aFilter;
     }
     void Controller::ini()
     {

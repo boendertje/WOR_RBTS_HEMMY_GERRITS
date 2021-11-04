@@ -28,7 +28,7 @@ public:
     Controller(/* args */) = delete;
     explicit Controller(AbstractAgent * agent);
     ~Controller();
-    void setFilter(FILTERS filter);
+    void setFilter(FILTERS aFilter);
     /**
     * @brief calculate and perfrom next action
     **/
